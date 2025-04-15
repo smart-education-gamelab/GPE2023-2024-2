@@ -1,0 +1,1 @@
+![Mindmap Architect of Goo](./Resources/Mindmap_Function_Ideas.png)

@@ -1,0 +1,35 @@
+name: "Code task issue template"
+description: "Use this template to create coding tasks"
+title: "Feature: "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe the feature in detail, making sure to include possible end-users and the relation of this feature to their goals."
+  - type: textarea
+    id: functional-requirements
+    attributes:
+      label: "Functional Requirements"
+      description: "These are the requirements that describe how the system can be influenced from the outside."
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "These are requirements that describe how the system should be implemented."
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: "Dependencies"
+      description: "List any other features that this feature depends on."
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: "Definition of Done"
+      description: "Make sure to check off the following tasks!"
+      options:
+        - label: Follows the naming conventions
+        - label: Follows the coding conventions
+        - label: Meets the acceptance criteria
+        - label: Pull request has been opened
+      

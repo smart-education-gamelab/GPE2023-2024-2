@@ -1,0 +1,22 @@
+name: "Design page tracker template"
+description: "Use this template to track a design page"
+title: "Design Page: "
+labels:
+  - "design"
+projects:
+  - "Documentation Tasks"
+body:
+  - type: textarea
+    id: concept-summary
+    attributes:
+      label: "Concept/Summary"
+      description: "What should the page describe in rough terms?"
+  - type: textarea
+    id: resources
+    attributes:
+      label: "Resources"
+      description: "List the resources that need to be added to the page (diagrams, links to be used, images, etc)."
+  - type: markdown
+    attributes: 
+      value: |
+        *Don't forget to add optional labels associated with the topic's type/nature, options:* `revision`
